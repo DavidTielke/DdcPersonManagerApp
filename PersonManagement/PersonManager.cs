@@ -4,7 +4,7 @@ using DavidTielke.DDC.Data.DataStoring;
 
 namespace DavidTielke.DDC.Logic.PersonManagement
 {
-    public class PersonManager
+    public class PersonManager : IPersonManager
     {
         private readonly IPersonRepository _repository;
 

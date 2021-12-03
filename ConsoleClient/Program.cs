@@ -10,8 +10,8 @@ namespace DavidTielke.DDC.UI.ConsoleClient
     {
         static void Main(string[] args)
         {
-            var repo = new PersonRepository();
-            var manager = new PersonManager(repo);
+            IPersonRepository repo = new PersonRepository();
+            IPersonManager manager = new PersonManager(repo);
 
             var adults = manager.GetAllAdults().ToList();
             var children = manager.GetAllChildren().ToList();
