@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement", "PersonM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{A835414E-DCD0-4461-9CD3-6DD2E4B9D294}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{77DC55A9-4D57-4A29-BE33-528784C0D02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiMappings", "DiMappings\DiMappings.csproj", "{5DD588B0-ADFD-4726-B193-BAB47F43C204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{A835414E-DCD0-4461-9CD3-6DD2E4B9D294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A835414E-DCD0-4461-9CD3-6DD2E4B9D294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A835414E-DCD0-4461-9CD3-6DD2E4B9D294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD588B0-ADFD-4726-B193-BAB47F43C204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD588B0-ADFD-4726-B193-BAB47F43C204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD588B0-ADFD-4726-B193-BAB47F43C204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD588B0-ADFD-4726-B193-BAB47F43C204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{F30B2AA3-CD82-42DE-8173-B89500A3E174} = {2AE96ABE-8CC8-401E-A310-819A474573F9}
 		{5EAEB174-ABCD-47D4-8AAF-1DCFCABD3D3D} = {037827D3-5359-487E-9B2D-1436F0FFBF92}
 		{A835414E-DCD0-4461-9CD3-6DD2E4B9D294} = {E753048B-4174-491C-A7F5-6BA3FB3AD635}
+		{5DD588B0-ADFD-4726-B193-BAB47F43C204} = {77DC55A9-4D57-4A29-BE33-528784C0D02C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0871131-B382-4844-BAC6-002C929C81A3}

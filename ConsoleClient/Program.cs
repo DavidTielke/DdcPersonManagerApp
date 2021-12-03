@@ -3,6 +3,8 @@ using System.Linq;
 using DavidTielke.DDC.CrossCutting.DataClasses;
 using DavidTielke.DDC.Data.DataStoring;
 using DavidTielke.DDC.Logic.PersonManagement;
+using DiMappings;
+using Ninject;
 
 namespace DavidTielke.DDC.UI.ConsoleClient
 {
@@ -10,8 +12,9 @@ namespace DavidTielke.DDC.UI.ConsoleClient
     {
         static void Main(string[] args)
         {
-            IPersonRepository repo = new PersonRepository();
-            IPersonManager manager = new PersonManager(repo);
+            var kernel = KernelFactory.Create();
+
+            var manager = kernel.Get<IPersonManager>();
 
             var adults = manager.GetAllAdults().ToList();
             var children = manager.GetAllChildren().ToList();

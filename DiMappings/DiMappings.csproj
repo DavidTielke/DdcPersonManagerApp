@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>DavidTielke.DDC.UI.ConsoleClient</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DiMappings\DiMappings.csproj" />
+    <ProjectReference Include="..\DataStoring\DataStoring.csproj" />
     <ProjectReference Include="..\PersonManagement\PersonManagement.csproj" />
   </ItemGroup>
 
